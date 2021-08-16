@@ -46,6 +46,6 @@ func set() error {
 func main() {
 	fmt.Println("start")
 	if err := set(); err != nil {
-		log.Fatal("%v", err)
+		log.Fatalf("%v", err)
 	}
 }
